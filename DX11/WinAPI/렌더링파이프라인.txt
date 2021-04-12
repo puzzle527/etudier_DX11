@@ -1,0 +1,13 @@
+DX 11의 렌더링 파이프라인
+해상도만큼의 색을 얻는 일련의 과정
+
+
+DrawCall 
+
+IA-> VS-> RS-> PS-> OM
+
+Pixel 800x600
+
+공간 변환 
+		 (카메라)
+L -> W -> View -> Projection
