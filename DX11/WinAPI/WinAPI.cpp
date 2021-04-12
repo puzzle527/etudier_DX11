@@ -1,10 +1,6 @@
 ﻿#include "stdafx.h"
 #include "MainGame.h"
 
-//오늘 과제
-//별찍기
-
-
 //h: 리소스 핸들 (자원 관리자)
 //g: 글로벌
 //m: 멤버
