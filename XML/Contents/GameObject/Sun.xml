@@ -1,0 +1,60 @@
+<Root Name="Sun" Type="1">
+    <Mesh File="Sphere"/>
+    <Shader File="2.Cube" VertexType="1"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="50.072514" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="3"/>
+    <Child0 Name="EarthBone" Type="0">
+        <Mesh File="Sphere"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="0.5" Y="0.5" Z="0.5"/>
+            <Rotation X="0" Y="86.258339" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Earth" Type="0">
+            <Mesh File="Sphere"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="6" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="-86.258339" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+    </Child0>
+    <Child1 Name="Earth" Type="0">
+        <Mesh File="Sphere"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="6" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="-86.258339" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="MarsBone" Type="0">
+        <Mesh File="Sphere"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="0.5" Y="0.5" Z="0.5"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Mars" Type="0">
+            <Mesh File="Sphere"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="12" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+    </Child2>
+</Root>

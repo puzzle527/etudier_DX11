@@ -1,0 +1,77 @@
+
+행,열 (row,column)
+
+3d 공간에서 행렬은 기본 4x4
+
+기본이 행우선인데 쉐이더에선 열우선이 기본
+
+1행 2열 -> 2행 1열 (전치행렬관계)
+
+(a)(n) (m)(b)
+행 렬 x 행 렬
+
+n == m 같아야만 곱을 할수 있다
+
+axb 크기로 행렬이 만들어진다.
+
+
+A x B != B x A
+
+
+세가지 행렬의 멤버값과 연산결과 정리
+
+(x,y,z,1) X
+
+Scalling Matrix
+Sx 0  0  0
+0  Sy 0  0
+0  0  Sz 0
+0  0  0  1
+
+= (Sx *x,Sy *y,Sz *z, 1 )
+
+Translation Matrix
+1  0  0  0
+0  1  0  0
+0  0  1  0
+Tx Ty Tz 1
+
+= (x + Tx,y + Ty,z + Tz, 1)
+
+
+Sx 0  0  0
+0  Sy 0  0
+0  0  Sz 0
+Tx Ty Tz 1
+
+=	(Sx * x + Tx,
+	Sy * y + Ty,
+	Sz * z + Tz,
+	1)
+
+Rotaion Matrix
+
+삼각함수 덧셈정리에서 나온 연산
+
+Rx Ry Rz (3축으로부터의 회전된 좌표값)
+YawPitchRoll
+
+사원수(쿼터니언)을 가지고도 회전행렬을 만들수있다.
+
+
+World Matrix
+
+(크기,회전)
+ㅁ ㅁ ㅁ     0
+ㅁ ㅁ ㅁ     0
+ㅁ ㅁ ㅁ     0
+(이동)
+Tx Ty Tz    1
+
+(x,y,z,1) X W = (회전,이동,크기)
+(x,y,z,0) X W = (회전,크기)
+
+
+View Matrix
+
+Projection Matrix ->NDC

@@ -1,0 +1,11 @@
+<Root Name="Cam1" Type="2" isVisible="true" isAxis="false">
+    <Cam Fov="1.247" Near="0.0099999998" Far="1000000"/>
+    <Mesh File="Point"/>
+    <Shader File="2.Cube" VertexType="1"/>
+    <Transform>
+        <Position X="50.986275" Y="124.28681" Z="371.02899"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0.49300128" Y="4.786973" Z="0"/>
+    </Transform>
+    <Children Size="0"/>
+</Root>

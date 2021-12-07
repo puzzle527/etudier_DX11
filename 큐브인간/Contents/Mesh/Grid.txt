@@ -1,0 +1,38 @@
+int ColCount = 500; //짝수는 안됨
+    int Width = 50; //좌표단위
+    int harfCount = ColCount / 2;
+    int harfWidth = harfCount * Width;
+
+    Vertex = new VertexPC[ColCount*4];
+    vertexCount = ColCount * 4;
+
+
+
+    indices = new UINT[ColCount * 4];
+    indexCount = ColCount * 4;
+
+    int Count = 0;
+    for (int i = 0; i < ColCount*4; i+=4)
+    {
+        Vertex[i].position = 
+            Vector3(-harfWidth + Width * Count, 0, -harfWidth);
+        Vertex[i].color = Color(1, 1, 1);
+
+        Vertex[i+1].position = 
+            Vector3(-harfWidth + Width * Count, 0, harfWidth);
+        Vertex[i+1].color = Color(1, 1, 1);
+
+        Vertex[i + 2].position =
+            Vector3(-harfWidth , 0, -harfWidth + Width * Count);
+        Vertex[i + 2].color = Color(1, 1, 1);
+
+        Vertex[i + 3].position =
+            Vector3(harfWidth , 0, -harfWidth + Width * Count);
+        Vertex[i + 3].color = Color(1, 1, 1);
+        Count++;
+    }
+
+    for (UINT i = 0; i < indexCount; i++)
+    {
+        indices[i] = i;
+    }

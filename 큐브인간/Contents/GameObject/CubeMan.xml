@@ -1,0 +1,70 @@
+<Root Name="Body" Type="1" isVisible="true" isAxis="true">
+    <Mesh File="Cube2"/>
+    <Shader File="2.Cube" VertexType="1"/>
+    <Transform>
+        <Position X="-117.9864" Y="39.400002" Z="394.89774"/>
+        <Scale X="10" Y="12.6" Z="10"/>
+        <Rotation X="0" Y="-72.519073" Z="0"/>
+    </Transform>
+    <Children Size="3"/>
+    <Child0 Name="Neck" Type="0" isVisible="true" isAxis="false">
+        <Mesh File="Point"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0" Y="1" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0.70050395" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Head" Type="0" isVisible="true" isAxis="false">
+            <Mesh File="Cube2"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="0" Y="0.5" Z="0"/>
+                <Scale X="0.5" Y="0.5" Z="0.5"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+    </Child0>
+    <Child1 Name="RLegJoint" Type="0" isVisible="true" isAxis="true">
+        <Mesh File="Point"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0.34999999" Y="0.55000001" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="-1.0801016" Y="0.38158777" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="RLeg" Type="0" isVisible="true" isAxis="false">
+            <Mesh File="Cube2"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="0" Y="-2.55" Z="0"/>
+                <Scale X="0.34999999" Y="1" Z="0.5"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+    </Child1>
+    <Child2 Name="Rsholder" Type="0" isVisible="true" isAxis="false">
+        <Mesh File="Point"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="1.25" Y="1" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="1.0801016" Y="0.050000001" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="RArm" Type="0" isVisible="true" isAxis="false">
+            <Mesh File="Cube2"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="0" Y="-0.85000002" Z="0"/>
+                <Scale X="0.30000001" Y="0.85000002" Z="0.44999999"/>
+                <Rotation X="0" Y="-0.38158777" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+    </Child2>
+</Root>

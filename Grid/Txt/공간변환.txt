@@ -1,0 +1,8 @@
+
+(3D)(x,y,z)                                 (-1-1-1)~(1,1,1)
+Local Space(꼭지점,메쉬) -> World Space -> View Space -> NDC(정규화좌표)-> 
+
+(1920x1080)
+Screen Space (창 해상도 공간)
+
+변환과정 대부분은 벡터와 행렬을 통해 변환

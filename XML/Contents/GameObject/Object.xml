@@ -1,0 +1,80 @@
+<Root Name="Sun" Type="1">
+    <Mesh File="Sphere"/>
+    <Shader File="2.Cube" VertexType="1"/>
+    <Transform>
+        <Position X="0" Y="5.8128181" Z="22.409832"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="156.71483" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="3"/>
+    <Child0 Name="EarthBone" Type="0">
+        <Mesh File="Sphere"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="0.5" Y="0.5" Z="0.5"/>
+            <Rotation X="0" Y="154.89891" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Earth" Type="0">
+            <Mesh File="Sphere"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="6" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="-154.89891" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="Moon" Type="0">
+                <Mesh File="Sphere"/>
+                <Shader File="2.Cube" VertexType="1"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child0>
+    </Child0>
+    <Child1 Name="MarsBone" Type="0">
+        <Mesh File="Sphere"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="0.5" Y="0.5" Z="0.5"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Mars" Type="0">
+            <Mesh File="Sphere"/>
+            <Shader File="2.Cube" VertexType="1"/>
+            <Transform>
+                <Position X="12" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="None" Type="0">
+                <Mesh File="Sphere"/>
+                <Shader File="2.Cube" VertexType="1"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child0>
+    </Child1>
+    <Child2 Name="None2323" Type="0">
+        <Mesh File="Sphere"/>
+        <Shader File="2.Cube" VertexType="1"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child2>
+</Root>
